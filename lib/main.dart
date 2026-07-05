@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rest_api/home_screen.dart';
+import 'package:rest_api/example_two.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Rest API In Flutter',
-      theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: HomeScreen(),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      home: ExampleTwo(),
     );
   }
 }
